@@ -19,6 +19,8 @@ public class WeatherPatterns {
 
         // I am a good programmer :)
 
+        // yes i am
+
         return 0;
     }
 }
