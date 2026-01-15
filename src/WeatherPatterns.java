@@ -17,6 +17,8 @@ public class WeatherPatterns {
     public static int longestWarmingTrend(int[] temperatures) {
         // TODO: Write your code here!
 
+        // I am a good programmer :)
+
         return 0;
     }
 }
