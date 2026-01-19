@@ -20,15 +20,12 @@ public class WeatherPatterns {
     public static int longestWarmingTrend(int[] temperatures) {
         adjacencyList = new ArrayList[temperatures.length];
         longest = new int[temperatures.length];
-
-        // Initialize every arraylist
-        for (int i = 0; i < adjacencyList.length; i++) {
-            adjacencyList[i] = new ArrayList<>();
-        }
         int count;
 
         // Fill adjacency list
         for (int i = 0; i < adjacencyList.length; i++) {
+            // Initialize every arraylist
+            adjacencyList[i] = new ArrayList<>();
             count = i;
             while (count > 0) {
                 count--;
