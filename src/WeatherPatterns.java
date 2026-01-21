@@ -9,11 +9,6 @@ import java.util.ArrayList;
  */
 
 public class WeatherPatterns {
-    /**
-     * Longest Warming Trend
-     * @param temperatures
-     * @return the longest run of days with increasing temperatures
-     */
     private static ArrayList<Integer>[] adjacencyList;
     private static int[] longest;
 
